@@ -1,34 +1,35 @@
 <div class="container">
 
   <div>
-    <acme-navbar creationDate="main.creationDate" />
+    <acme-navbar/>
   </div>
 
-  <div class="jumbotron text-center">
-    <h1>'Allo, 'Allo!</h1>
+  <div class="well well-lg text-center">
+    <h1 class="page-header">Amy Chang <small>Actress - Model</small></h1>
+    <img src="assets/images/shapeimage_3.png" class="img-responsive img-rounded center-block" alt="Amy Chang - Actress - Model"><br>
+  </div>  
+  <div>
+    <em>
+      <p>
+        Even though I was made in Taiwan, I tend to think of myself as a Georgia peach, by way of Kansas. Yeah, that’s right - Dorothy could’ve been my neighbor. But Georgia is where I first learned to drive and learned to love, so I consider that to be “where I’m from.” No, I don’t have much of a Southern accent, but it’s been known to slip out on occasion...
+      </p>
+      <p>
+        Starting at an early age, I’ve always loved creating, performing and entertaining. From manifesting new characters in a play, to writing and performing original radio shows, my childhood was peppered with creative endeavors, and this pursuit of artistry continued on into adulthood. As an undergrad at Brown University, I acted in student theatre productions and independent films, and took part in cultural dance performances by the Chinese Students Association and the Filipino Alliance.
+      </p>
+      <p>
+        Since moving to New York, I’ve had the pleasure of being a principal lead in James Felix McKenney's horror film Hypothermia alongside Michael Rooker and Blanche Baker, and also played a heart-stopping role in McKenney's Satan Hates You. Other notable works include: Tze Chun's Sundance feature film about the pursuit of the American dream, Children of Invention; the lead role in Shalini Kantayya's short film, Red, with Gbenga Akinnagbe from HBO's The Wire.
+      </p>
+      <p>
+        I’m eternally grateful to my family and friends - what little sanity I’ve managed to maintain is due largely (if not entirely) to all of their love and support.
+      </p>
+      <p>
+        Also, I think babies smell sweet, and they taste even better.
+      </p>
+    </em>
+  </div>
+  <div class="text-center">
     <p class="lead">
-      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      Always a pleasure scaffolding your apps.
-    </p>
-    <p class="animated infinite" ng-class="main.classAnimation">
-      <button type="button" class="btn btn-lg btn-success" ng-click="main.showToastr()">Splendid Toastr</button>
-    </p>
-    <p>
-      With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']" />
+      Copyright © Amy Chang 2015 All Rights Reserved
     </p>
   </div>
-
-  <div class="row">
-    <div class="col-sm-6 col-md-4" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
-      <div class="thumbnail">
-        <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
-        <div class="caption">
-          <h3>{{ awesomeThing.title }}</h3>
-          <p>{{ awesomeThing.description }}</p>
-          <p><a ng-href="{{awesomeThing.url}}">{{ awesomeThing.url }}</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </div>

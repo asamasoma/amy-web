@@ -3,17 +3,17 @@
 
   angular
     .module('amyWeb')
-    .config(routeConfig);
+    .config(['$stateProvider', '$urlRouterProvider', routeConfig]);
 
-  function routeConfig($routeProvider) {
-    $routeProvider
-      .when('/', {
+  function routeConfig($stateProvider, $urlRouterProvider) {
+    $urlRouterProvider.otherwise('/');
+
+    $stateProvider
+      .state('home', {
+        url: '/',
         templateUrl: 'app/main/main.html',
         controller: 'MainController',
         controllerAs: 'main'
-      })
-      .otherwise({
-        redirectTo: '/'
       });
   }
 
