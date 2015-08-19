@@ -1,5 +1,4 @@
 <nav class="navbar navbar-default navbar-fixed-top" bs-navbar bs-collapse>
-  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" bs-collapse-toggle>
         <span class="icon-bar"></span>
@@ -13,13 +12,12 @@
 
     <div bs-collapse-target>
       <ul class="nav navbar-nav">
-        <li class="active"><a ng-href="#/">My Story</a></li>
-        <li><a ng-href="#">The Reel Thing</a></li>
-        <li><a ng-href="#">Extra, Extra</a></li>
-        <li><a ng-href="#">Focused</a></li>
-        <li><a ng-href="#">The Creds</a></li>
-        <li><a ng-href="#">Connecting</a></li>
+        <li data-match-route="/$"><a ng-href="#/">My Story</a></li>
+        <li ui-sref-active="active"><a ui-sref=".reel">The Reel Thing</a></li>
+        <li ui-sref-active="active"><a ui-sref=".extra">Extra, Extra</a></li>
+        <li ui-sref-active="active"><a ui-sref=".focused">Focused</a></li>
+        <li ui-sref-active="active"><a ui-sref=".creds">The Creds</a></li>
+        <li ui-sref-active="active"><a ui-sref=".connect">Connecting</a></li>
       </ul>
     </div>
-  </div>
 </nav>
