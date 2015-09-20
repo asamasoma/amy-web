@@ -3,7 +3,11 @@
 
   angular
     .module('amyWeb')
-    .controller('ExtraController', ExtraController);
+    .controller('ExtraController', ExtraController)
+    .filter('trustAsResourceUrl', ['$sce', function($sce) {
+		return function(url) {
+		return $sce.trustAsResourceUrl(url);
+	}}]);
 
   /** @ngInject */
   function ExtraController($scope) {
@@ -11,11 +15,10 @@
   	$scope.noWrapSlides = false;
   	var slides = $scope.slides = [];
   	$scope.addSlide = function() {
-    	var newWidth = 600 + slides.length + 1;
     	slides.push({
-      	image: '//placekitten.com/' + newWidth + '/300',
-      	text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
-        	['Cats', 'Kittys', 'Felines', 'Cutes'][slides.length % 4]
+      	url: 'https://player.vimeo.com/video/137779029',
+      	link: 'https://vimeo.com/137779029',
+      	text: 'DELL National Commercial (30 second spot)'
     	});
   	};
   	for (var i=0; i<4; i++) {

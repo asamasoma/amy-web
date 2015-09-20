@@ -1,13 +1,9 @@
 <div class="container">
 	<br /><br /></br >
-	<div style="height: 305px">
     <carousel interval="myInterval" no-wrap="noWrapSlides">
       <slide ng-repeat="slide in slides" active="slide.active">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
-        <div class="carousel-caption">
-          <h4>Slide {{$index}}</h4>
-          <p>{{slide.text}}</p>
-        </div>
+        <iframe ng-src="{{slide.url | trustAsResourceUrl}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p><a href="{{slide.link}}">{{slide.text}}</a> from <a href="https://vimeo.com/amychang">Amy Chang</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
       </slide>
     </carousel>
   </div>
