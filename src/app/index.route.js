@@ -36,7 +36,8 @@
         url: 'extra',
         views: {
             'content@': {
-                templateUrl: '/templates/extra.html'
+                templateUrl: '/templates/extra.html',
+                controller: 'ExtraController'
             }
         }
  
