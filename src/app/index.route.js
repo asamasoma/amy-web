@@ -46,7 +46,8 @@
         url: 'focused',
         views: {
             'content@': {
-                templateUrl: '/templates/focused.html'
+                templateUrl: '/templates/focused.html',
+                controller: 'FocusedController'
             }
         }
  
