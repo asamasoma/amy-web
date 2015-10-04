@@ -1,11 +1,10 @@
 <div class="container">
-	<div class="jumbotron text-center">
-		<ul>
-		  <li ng-repeat="image in images">
-		    <a ng-click="openLightboxModal($index)">
-		      <img ng-src="{{image.thumbUrl}}" class="img-thumbnail">
+	<br /><br /><br />
+	<div class="row">
+		<span ng-repeat="folder in folders" class="col-sm-3">
+		    <a ng-click="openLightboxModal(folder, 0)">
+		      <img ng-src="{{folder.thumbUrl}}" class="img-thumbnail">
 		    </a>
-		  </li>
-		</ul>
+		</span>
 	</div>
 </div>
