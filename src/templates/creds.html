@@ -1,16 +1,18 @@
 <div class="container">
 	<br /><br /><br />
-	<table class="table">
+	<table ng-repeat="medium in data"class="table">
 		<thead>
 			<tr>
-				<th>FILM</th>
+				<th>{{medium.name.toUpperCase()}}</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr ng-repeat="film in films">
-				<td>{{film.title}}{{film.featuring ? " w/ " : ""}}{{film.featuring}}</td>
-				<td>{{film.role}} - {{film.status}}</td>
-				<td>{{film.notes}}</td>
+			<tr ng-repeat="item in medium.items">
+				<td>{{item.title}}<i ng-if="item.featuring"> (w/ {{item.featuring}})</i></td>
+				<td>{{item.role ? item.role : ""}}{{(item.role && item.billing) ? " &mdash; " : ""}}
+					<i ng-if="item.billing">{{item.billing}}</i>
+				</td>
+				<td>{{item.notes}}</td>
 			</tr>
 		</tbody>
 	</table>

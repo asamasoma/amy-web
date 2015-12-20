@@ -7,7 +7,7 @@
 
   /** @ngInject */
   function FocusedController($scope, Lightbox) {
-    var portrait_dir = 'assets/images/portraits/'
+    var portrait_dir = 'assets/images/portraits/';
   	$scope.folders = [
       {
         'name': 'Lev Gorn',
@@ -71,7 +71,7 @@
                   }]
       },
       {
-        'name': 'Jesus',
+        'name': 'Jesus Ward',
         'thumbUrl': portrait_dir + 'jesus/angel.jpg',
         'images': [{
                     'url': portrait_dir + 'jesus/angel.jpg',
