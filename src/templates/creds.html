@@ -1,5 +1,17 @@
 <div class="container">
-	<div class="jumbotron text-center">
-		<p>CV goes here.</p>
-	</div>
+	<br /><br /><br />
+	<table class="table">
+		<thead>
+			<tr>
+				<th>FILM</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="film in films">
+				<td>{{film.title}}{{film.featuring ? " w/ " : ""}}{{film.featuring}}</td>
+				<td>{{film.role}} - {{film.status}}</td>
+				<td>{{film.notes}}</td>
+			</tr>
+		</tbody>
+	</table>
 </div>

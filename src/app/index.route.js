@@ -56,7 +56,8 @@
         url: 'creds',
         views: {
             'content@': {
-                templateUrl: '/templates/creds.html'
+                templateUrl: '/templates/creds.html',
+                controller: 'CredsController'
             }
         }
  
