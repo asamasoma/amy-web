@@ -1,10 +1,11 @@
 <div class="container">
 	<br /><br /><br />
 	<div class="row">
-		<span ng-repeat="folder in folders" class="col-sm-3">
-		    <a ng-click="openLightboxModal(folder, 0)">
+		<span ng-repeat="folder in folders" class="col-xs-4">
+		    <p><a ng-click="openLightboxModal(folder, 0)">
 		      <img ng-src="{{folder.thumbUrl}}" class="img-thumbnail">
-		    </a>
+		    </a></p>
+		    <p>{{folder.name}}</p>
 		</span>
 	</div>
 </div>
