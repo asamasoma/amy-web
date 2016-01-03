@@ -1,9 +1,28 @@
 <div class="container">
 	<br /><br /><br />
-	<table ng-repeat="medium in data"class="table">
+	<div class="row text-center">
+		<span class="col-xs-12">
+			<p>Amy Chang</p>
+			<p>SAF-AFTRA</p>
+		</span>
+	</div>
+	<div class="row">
+		<span class="col-xs-6">	
+			<p>917-582-5742</p>
+			<p><a href="mailto:info@amychangactress.com">info@amychangactress.com</a></p>
+			<p><a href="http://www.amychangactress.com">www.amychangactress.com</a></p>
+		</span>
+		<span class="col-xs-6 text-right">
+			<p>Hair: Black</p>
+			<p>Eyes: Brown</p>
+			<p>Height: 5'4"</p>
+			<p>Weight: 117 lbs</p>
+		</span>
+	</div>
+	<table ng-repeat="medium in data" class="table">
 		<thead>
 			<tr>
-				<th>{{medium.name.toUpperCase()}}</th>
+				<th>{{medium.name.toUpperCase()}}</th><th /><th />
 			</tr>
 		</thead>
 		<tbody>
@@ -14,6 +33,39 @@
 				</td>
 				<td>{{item.notes}}</td>
 			</tr>
+		</tbody>
+	</table>
+	<table class="table">
+		<thead>
+			<tr><th>COMMERCIALS & PRINT</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>Conflicts available upon request</td></tr>
+		</tbody>
+	</table>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>TRAINING</th><th /><th />
+			</tr>
+		</thead>
+		<tbody>
+			<tr><td>Acting</td><td>Meisner Technique</td><td>Charlie Sandlan, Maggie Flanigan Studio</td></tr>
+			<tr><td /><td>On Camera Intensive</td><td>Janine Ditullio, Kimball Studio</td></tr>
+			<tr><td /><td>Eric Morris Method</td><td>Anthony Vincent Bova, Bova Actors Workshop</td></tr>
+			<tr><td /><td>Scene Study</td><td>Harry O'Reilly, Actors Alliance</td></tr>
+			<tr><td /><td>Acting & Directing</td><td>Yann Montelle, Brown University</td></tr>
+			<tr><td>Movement</td><td>Movement Levels I-IV</td><td>Nathan Flower & Julia Crockett, Maggie Flanigan Studio</td></tr>
+			<tr><td /><td>Modern Dance</td><td>Julie Strandberg, Brown University</td></tr>
+			<tr><td>Art Semiotics</td><td>Bachelor of Arts</td><td>Brown University</td></tr>
+		</tbody>
+	</table>
+	<table class="table">
+		<thead>
+			<tr><th>SPECIAL SKILLS</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>Ashtanga Yoga, Ice-Skating, Rollerblading, Swimming, Drawing, Tae Kwon Do, Film combat, Sword fighting, Cartwheel into a split, Bartending, Conversational Mandarin Chinese, Conversational Taiwanese, Intermediate Flute/Piccolo, Intermediate Violin.</td></tr>
 		</tbody>
 	</table>
 </div>
