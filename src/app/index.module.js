@@ -2,6 +2,13 @@
   'use strict';
 
   angular
-    .module('amyWeb', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstrap', 'bootstrapLightbox']);
+    .module('amyWeb',
+    	['ngAnimate',
+    	 'ngCookies',
+    	 'ngTouch',
+    	 'ngSanitize',
+    	 'ui.router',
+    	 'ui.bootstrap',
+    	 'bootstrapLightbox']);
 
 })();

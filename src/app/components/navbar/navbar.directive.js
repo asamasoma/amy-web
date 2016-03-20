@@ -3,10 +3,10 @@
 
   angular
     .module('amyWeb')
-    .directive('acmeNavbar', acmeNavbar);
+    .directive('amyNavbar', amyNavbar);
 
   /** @ngInject */
-  function acmeNavbar() {
+  function amyNavbar() {
     var directive = {
       restrict: 'E',
       templateUrl: 'app/components/navbar/navbar.html',

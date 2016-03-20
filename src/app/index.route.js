@@ -6,7 +6,7 @@
     .config(['$stateProvider', '$urlRouterProvider', routeConfig]);
 
   function routeConfig($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider.otherwise('home');
 
     $stateProvider
     .state('app',{
@@ -20,6 +20,14 @@
             },
             'footer': {
                 templateUrl: '/templates/partials/footer.html'
+            }
+        }
+    })
+    .state('app.home', {
+        url: 'home',
+        views: {
+            'content@': {
+                templateUrl: '/templates/home.html'
             }
         }
     })
