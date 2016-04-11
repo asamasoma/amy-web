@@ -2,6 +2,11 @@
  *  If you want to override some bootstrap variables, you have to change values here.
  *  The list of variables are listed here bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss
  */
+$body-bg: #EAADEA;
+$jumbotron-bg: #9F5F9F;
+$well-bg: $jumbotron-bg;
+$headings-small-color: #EAADEA;
+//$navbar-default-bg: #EAADEA;
 $navbar-inverse-link-color: #5AADBB;
 $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
