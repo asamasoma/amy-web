@@ -11,10 +11,10 @@
   	$scope.folders = [
       {
         'name': 'Lev Gorn',
-        'thumbUrl': portrait_dir + 'lev_gorn/Blue1webAmyChang.jpeg',
+        'thumbUrl': portrait_dir + 'lev_gorn/Jacket3webAmyChang.jpg',
         'images': [{
-                    'url': portrait_dir + 'lev_gorn/Blue1webAmyChang.jpeg',
-                    'caption': 'Optional caption'
+                    'url': portrait_dir + 'lev_gorn/Jacket3webAmyChang.jpg'
+                    //'caption': 'Optional caption'
                   },
                   {
                     'url': portrait_dir + 'lev_gorn/Glasses1webAmyChang.jpg'
@@ -32,7 +32,7 @@
                     'url': portrait_dir + 'lev_gorn/Jacket2webAmyChang.jpeg'
                   },
                   {
-                    'url': portrait_dir + 'lev_gorn/Jacket3webAmyChang.jpeg'
+                    'url': portrait_dir + 'lev_gorn/Blue1webAmyChang.jpeg'
                   },
                   {
                     'url': portrait_dir + 'lev_gorn/Make-up.jpg'
@@ -44,15 +44,14 @@
                     'url': portrait_dir + 'lev_gorn/Pink1webAmyChang.jpg'
                   },
                   {
-                    'url': portrait_dir + 'lev_gorn/SilverwebAmyChang.jpg'
+                    'url': portrait_dir + 'lev_gorn/SilverwebAmyChang.jpeg'
                   }]
       },
       {
         'name': 'Helen Chan',
         'thumbUrl': portrait_dir + 'helen_chan/helen1.jpg',
         'images': [{
-                    'url': portrait_dir + 'helen_chan/helen1.jpg',
-                    'caption': 'Optional caption'
+                    'url': portrait_dir + 'helen_chan/helen1.jpg'
                   },
                   {
                     'url': portrait_dir + 'helen_chan/helen2.jpg'
@@ -74,8 +73,7 @@
         'name': 'Jesus Ward',
         'thumbUrl': portrait_dir + 'jesus/angel.jpg',
         'images': [{
-                    'url': portrait_dir + 'jesus/angel.jpg',
-                    'caption': 'Optional caption'
+                    'url': portrait_dir + 'jesus/angel.jpg'
                   },
                   {
                     'url': portrait_dir + 'jesus/angelwhite1.jpg'
@@ -98,10 +96,9 @@
       },
       {
         'name': 'Lars Gerhard',
-        'thumbUrl': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-1.jpg',
+        'thumbUrl': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-4.jpg',
         'images': [{
-                    'url': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-1.jpg',
-                    'caption': 'Optional caption'
+                    'url': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-4.jpg'
                   },
                   {
                     'url': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-2.jpg'
@@ -110,15 +107,14 @@
                     'url': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-3.jpg'
                   },
                   {
-                    'url': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-4.jpg'
+                    'url': portrait_dir + 'lars_gerhard/AmyChangHeadshot2014-1.jpg'
                   }]
       },
       {
         'name': 'Shawn Greene',
-        'thumbUrl': portrait_dir + 'shawn_greene/Amy_Shawn_BlueShirt.jpg',
+        'thumbUrl': portrait_dir + 'shawn_greene/Amy_Shawn_Lights.jpg',
         'images': [{
-                    'url': portrait_dir + 'shawn_greene/Amy_Shawn_BlueShirt.jpg',
-                    'caption': 'Optional caption'
+                    'url': portrait_dir + 'shawn_greene/Amy_Shawn_Lights.jpg'
                   },
                   {
                     'url': portrait_dir + 'shawn_greene/Amy_Shawn_Brown.jpg'
@@ -127,7 +123,7 @@
                     'url': portrait_dir + 'shawn_greene/Amy_Shawn_Face.jpg'
                   },
                   {
-                    'url': portrait_dir + 'shawn_greene/Amy_Shawn_Lights.jpg'
+                    'url': portrait_dir + 'shawn_greene/Amy_Shawn_BlueShirt.jpg'
                   },
                   {
                     'url': portrait_dir + 'shawn_greene/Amy_Shawn_YellowShirt.jpg'
@@ -137,8 +133,7 @@
         'name': 'Corey Hayes',
         'thumbUrl': portrait_dir + 'corey_hayes/coreyhayes1.jpg',
         'images': [{
-                    'url': portrait_dir + 'corey_hayes/coreyhayes1.jpg',
-                    'caption': 'Optional caption'
+                    'url': portrait_dir + 'corey_hayes/coreyhayes1.jpg'
                   },
                   {
                     'url': portrait_dir + 'corey_hayes/coreyhayes2.jpg'
