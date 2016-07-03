@@ -12,6 +12,13 @@
 			'name': 'films',
 			'items': [
 		      {
+		      	'title': 'Ace the Case',
+		      	'featuring': 'Susan Sarandon',
+		      	'role': 'Ping',
+		      	'billing': 'Supporting',
+		      	'notes': 'Kaufman Films, dir. Kevin Kaufman'
+		      },
+		      {
 		      	'title': 'Hypothermia',
 		      	'featuring': 'Michael Rooker',
 		      	'role': 'Gina',
@@ -26,11 +33,10 @@
 		      	'notes': '7th Empire Media, dir. Shalini Kantayya'
 		      },
 		      {
-		      	'title': 'Kid Witness',
-		      	'featuring': 'Susan Sarandon',
-		      	'role': 'Ping',
-		      	'billing': 'Supporting',
-		      	'notes': 'Kaufman Films, dir. Kevin Kaufman'
+		      	'title': 'Trivia Night',
+		      	'role': 'Rosetta',
+		      	'billing': 'Principal',
+		      	'notes': 'dir. Robert Gregson'
 		      },
 		      {
 		      	'title': 'Children of Invention',
@@ -57,12 +63,6 @@
 		      	'notes': 'dir. Camille Xin'
 		      },
 		      {
-		      	'title': 'Ikenhisu',
-		      	'role': 'Oshota',
-		      	'billing': 'Lead',
-		      	'notes': 'Troopers Touch Inc, dir. La\'Mard Wingster'
-		      },
-		      {
 		      	'title': 'Lydia Li',
 		      	'role': 'Lydia',
 		      	'billing': 'Lead',
@@ -73,6 +73,12 @@
 		{
 			'name': 'television',
 			'items': [
+		      {
+		      	'title': 'Master of None',
+		      	'role': 'Peter\'s Wife',
+		      	'billing': 'Co-star',
+		      	'notes': 'Netflix'
+		      },
 		      {
 		      	'title': 'Royal Pains',
 		      	'role': 'Nurse',
@@ -90,16 +96,6 @@
 		      	'role': 'Debbie',
 		      	'billing': 'Co-star',
 		      	'notes': 'Montclair University Dept. of Broadcasting'
-		      },
-		      {
-		      	'title': 'CBS Voting Booth Promo',
-		      	'billing': 'Featured',
-		      	'notes': 'CBS'
-		      },
-		      {
-		      	'title': 'Time Warner Corporate Profile',
-		      	'billing': 'Featured',
-		      	'notes': 'Broadstreet'
 		      },
 		      {
 		      	'title': 'Off to College',
